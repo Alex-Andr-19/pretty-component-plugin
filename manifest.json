@@ -1,8 +1,12 @@
 {
-  "name": "Hello World",
-  "id": "hello-world-plugin",
+  "name": "Pretty Component (Figma)",
+  "id": "pretty-component-plugin",
+  "api": "1.0.0",
+  "editorType": ["figma"],
   "main": "dist/code.js",
   "ui": "src/ui.html",
-  "editorType": ["figma", "pixso"],
-  "api": "1.0.0"
+  "enableProposedApi": false,
+  "relaunchButtons": [
+    { "command": "update", "name": "Update components" }
+  ]
 }

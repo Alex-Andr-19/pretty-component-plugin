@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>My First plugin 1</h1>
-    <button id="btn">Say Hallo</button>
+    <h1>My First plugin</h1>
+    <button id="hello">Say Hallo</button>
+    <button id="update">Update</button>
     <script>
-      document.getElementById("btn").onclick = () => {
-        parent.postMessage({ pluginMessage: { type: "hello" } }, "*");
-      };
+      const post = (type, payload) =>
+        parent.postMessage({ pluginMessage: { type, ...payload } }, "*");
+
+      document.getElementById("hello").onclick = () => post("hello");
+      document.getElementById("update").onclick = () => post("update-all");
     </script>
   </body>
 </html>

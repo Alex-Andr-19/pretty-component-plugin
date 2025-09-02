@@ -6,7 +6,8 @@
 		"strict": true,
 		"outDir": "dist",
 		"rootDir": "src",
-    "lib": ["esnext"],
-    "types": ["@pixso/plugin-typings"]
-	}
+		"lib": ["esnext"],
+		"types": ["@figma/plugin-typings"]
+	},
+	"include": ["src"]
 }
