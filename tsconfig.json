@@ -1,0 +1,12 @@
+{
+	// Visit https://aka.ms/tsconfig to read more about this file
+	"compilerOptions": {
+		"target": "es6",
+		"module": "esnext",
+		"strict": true,
+		"outDir": "dist",
+		"rootDir": "src",
+    "lib": ["esnext"],
+    "types": ["@pixso/plugin-typings"]
+	}
+}

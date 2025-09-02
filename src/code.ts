@@ -1,3 +1,5 @@
+/// <reference types="@pixso/plugin-typings" />
+
 // Главный поток плагина
 pixso.showUI(__html__, { width: 240, height: 120 });
 

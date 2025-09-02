@@ -1,0 +1,17 @@
+{
+  "name": "pixso-pretty-component-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pixso/plugin-typings": "^0.8.0",
+    "typescript": "^5.9.2"
+  }
+}
